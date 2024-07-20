@@ -18,6 +18,7 @@ services:
       - ./www/:/var/www/html/
 
   # MariaDB Service
+  # user: root
   mariadb:
     image: mariadb:10.11
     environment:
